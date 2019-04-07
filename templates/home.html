@@ -5,5 +5,23 @@
 
     <body>
         <!-- Edit here -->
+        <br>
+        <h2> To make an application to meet university, please fill this form:</h2>
+        <form action="/" method="post" >
+        	<p style="color: red;">{{msg}}</p>
+        	your id num / passport num:
+        	<input type="text" name="national_id" required>
+        	<br>
+        	your full name:
+        	<input type="text" name="name" required>
+        	<br>
+        	your age:
+        	<input type="text" name="age" required>
+        	<br>
+        	the subject your interasted to learn in our university:
+        	<input type="text" name="subject" required>
+        	<br>
+        	<button type="submite" name="submit" placeholder="submit" value="submit"> Submite </button>
+        </form>
     </body>
 </html>

@@ -4,6 +4,17 @@
     </head>
 
     <body>
+    	<h1> Applicants information: </h1>
+    	<br>
+    	<br>
+    	<br>
         <!-- Edit here -->
+        <ol>
+        {% for i in applicants %}
+        
+        <li> name: {{i.name}} - age: {{i.age}} - subject: {{i.subject}} </li>
+        <br>
+        {% endfor %}
+        </ol>
     </body>
 </html>
